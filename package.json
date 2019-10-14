@@ -1,0 +1,22 @@
+{
+  "name": "server_kit",
+  "version": "1.0.0",
+  "description": "Server template for porting data to the web (IOT application)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephbiwer/ServerTemplate.git"
+  },
+  "author": "Joe Biwer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephbiwer/ServerTemplate/issues"
+  },
+  "homepage": "https://github.com/josephbiwer/ServerTemplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> IOT Client </title>
+	</head>
+	<body>
+		<p id="data"></p>
+		<script>
+			const dataElement = document.getElementById('data');
+			fetch('http://localhost:5000/ping', {
+				mode: 'no-cors'			
+			})
+				.then(res => res.json())
+				.then(data => dataElement.innerHTML = data)
+				.catch(err => console.error(err));
+		</script>
+	</body>
+</html>
