@@ -9,6 +9,7 @@ Be sure that npm is installed and up to date using your prefered package manager
 
 ```
 git clone https://github.com/josephbiwer/ServerTemplate.git
+cd ServerTemplate
 npm install
 ```
 
