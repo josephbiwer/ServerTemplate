@@ -1,10 +1,10 @@
 {
   "name": "server_kit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Server template for porting data to the web (IOT application)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/josephbiwer/ServerTemplate#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }

@@ -1,9 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 app.use(express.json({extended: false}))
 
-app.get('/ping', (req, res) => {
+app.get('/ping', cors(), (req, res) => {
 	console.log('ping command received');
 	res.send('pong');
 });

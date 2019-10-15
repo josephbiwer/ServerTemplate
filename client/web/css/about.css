@@ -1,0 +1,18 @@
+.about-container .title {
+    display: block;
+    margin: 8% auto 2%;
+    width: 40%;
+    min-width: 200px;
+    font-size: 18px;
+    color: var(--light);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about-container .description {
+    display: block;
+    width: 80%;
+    margin: 0 auto 15px;
+    color: var(--light);
+    font-size: 13px;
+}
